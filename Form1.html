@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration Form1</title>
+        <style>
+            h3{
+                color: blue;
+                
+            }
+        </style>
+    </head>
+    <body>
+        <form>
+        <h3>
+            Registration Form:
+        </h3>
+        <p>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" placeholder="Enter Your Name">
+        </p>
+        <p>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" placeholder="Enter Your Email Id ">
+        </p>
+        <p>
+            <label for="password">Password:</label><br>
+            <input type="password" id="password">
+        </p>
+        <p>
+            <label for="dob">DOB:</label><br>
+            <input type="date" name="date" id="date">
+        </p>
+        <p>
+            <label for="gender">Gender:</label><br>
+            <input type="radio" id="gender" name="gender" checked>Male <br>
+            <input type="radio" id="gender" name="gender">Female <br>
+            <input type="radio"id="gender" name="gender">Other <br>
+        </p>
+        <p>
+            <label for="hobbies">Hobbies:</label><br>
+            <select name="hobbies" id="hobbies">
+                <option value="drawing">Drawing</option>
+                <option value="painting">Painting</option>
+                <option value="dancing">Dancing</option>
+                <option value="none" selected>None</option>
+            </select>
+        </p>
+        <p>
+            <label for="cities">Cities:</label><br>
+            <input type="checkbox" name="cities" id="cities" checked>None
+            <input type="checkbox" name="cities" id="cities">Bangalore
+            <input type="checkbox" name="cities" id="cities">Mumbai
+            <input type="checkbox" name="cities" id="cities">New Delhi
+        </p>
+        <p>
+            <label for="message">Message:</label><br>
+            <textarea name="message" id="message" cols="40" rows="5"></textarea>
+        </p>
+        <p>
+            <input type="submit">
+            <button type="reset">Reset</button>
+        </p>
+    </form>
+    </body>
+
+</html>
